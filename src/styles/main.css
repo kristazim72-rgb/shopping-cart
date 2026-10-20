@@ -1,0 +1,34 @@
+:root {
+  --primary-green: #3B7A57;
+  --pastel-green-bg: #EAF4EC;
+  --pastel-blue-bg: #EBF4F6;
+  --accent-gold: #F4A261;
+  --text-dark: #223322;
+  --text-muted: #6B7280;
+  --white: #FFFFFF;
+  --card-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--pastel-blue-bg);
+  color: var(--text-dark);
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
